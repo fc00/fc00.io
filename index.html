@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
-  <title>FC00.github.io</title>
+  <title>fc00 -- futuristic connectivity</title>
   <meta http-equiv="Content-Type" charset="UTF-8">
 </head>
 <body>
 
-<h1>FC00</h1>
+<h1>Futuristic Connectivity</h1>
 
-<p>FC00 exists for the purpose of developing networking software that is resilient to technical and political attacks.</p>
-<p>Find out more on our <a href="http://webchat.freenode.net/?channels=%23FC00" alt="#fc00 via the freenode web client">public IRC channel</a></p>
+<p><em>All power to the leafs!</em></p>
 
+<p>fc00 is an effort to a redistribution of power in computer networking.
+We build an encrypted IPv6 network using public-key cryptography for
+address allocation, and a distributed hash table for routing. This provides
+near-zero-configuration networking, and prevents many of the security and
+scalability issues that plague existing networks.</p>
+
+<p>fc00 is named after the <code>fc00::/8</code> IPv6 address space which it inhabits.</p>
+
+<p>To get a better idea of fc00, read the following documents.
+Although they are slightly outdated, they capture the essence of fc00 very well.</p>
+
+<ul>
+<li><a href="https://github.com/cjdelisle/cjdns/blob/master/doc/projectGoals.md">Project goals of cjdns</a></li>
+<li><a href="https://github.com/cjdelisle/cjdns/blob/master/doc/Whitepaper.md">Cjdns whitepaper</a></li>
+<li><a href="https://cdn.media.ccc.de/congress/2013/workshops/30c3-WS-en-YBTI_Routing-Caleb_James_Delisle-Edge_of_Dystopia.webm">The Edge of Dystopia</a>, cjd @ 30c3</li>
+</ul>
+
+<h2>Preliminary Roadmap</h2>
+
+<ul>
+  <li>Specification of FCP, the <em>Futuristic Connectivity Protocol</em>, derived from the reference implementation <a href="https://github.com/cjdelisle/cjdns">cjdns</a>.</li>
+  <ul>
+    <li>CryptoAuth</li>
+    <li>Peering</li>
+    <li>Switch</li>
+    <li>Router</li>
+    <li>IPv6</li>
+    <li>IPTunnel</li>
+  </ul></li>
+  <li>Go implementation of FCP CryptoAuth and Switch</li>
+  <li>Integration with <a href="https://github.com/ipfs/libp2p">libp2p</a></li>
+</ul>
