@@ -42,4 +42,4 @@ You can view the latest progress at [github.com/fc00][fc00-org].
 
 [fc00-org]: https://github.com/fc00
 [cjdns]: https://github.com/cjdelisle/cjdns
-[libp2p]: https://github.com/ipfs/libp2p
+[libp2p]: https://github.com/ipfs/specs/tree/master/libp2p
